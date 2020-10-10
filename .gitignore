@@ -8,3 +8,4 @@ sudokuSolver.class
 crosswordPuzzle.class
 cryptarithmaticPuzzle.class
 friendsPairing.class
+partitionInKSubsets.class
