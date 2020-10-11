@@ -1,5 +1,4 @@
 NQueens.class
-NQueens.class
 maxScoreOfWords.class
 gameOfExecution.class 
 LexicographicalOrder.class
@@ -9,3 +8,4 @@ crosswordPuzzle.class
 cryptarithmaticPuzzle.class
 friendsPairing.class
 partitionInKSubsets.class
+allPalindromicPermutations.class
