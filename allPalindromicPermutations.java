@@ -57,6 +57,10 @@ class allPalindromicPermutations{
 
             fmap.put(c, f/2);
         }
+        if(odd > 1){
+            System.out.println(-1);
+            return;
+        }
 
         solution(1, len, fmap, oddc, "");
     }
