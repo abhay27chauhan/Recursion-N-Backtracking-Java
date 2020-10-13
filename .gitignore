@@ -14,3 +14,4 @@ equalSumSubsetPartition.class
 javac wordPatternMatching.class
 wordBreak.class
 removeInvalidParenthesis.class
+minimumSubsetSumDifference.class
