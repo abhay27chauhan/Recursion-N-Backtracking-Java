@@ -16,20 +16,16 @@ class queenCombination2{
         }
 
         for(int col = lo+1; col<chess[0].length; col++){
-            if(chess[row][col] == false){
-                chess[row][col] = true;
-                queenCombination(qpsf+1, tq, chess, row, col);
-                chess[row][col] = false;
-            }
+            chess[row][col] = true;
+            queenCombination(qpsf+1, tq, chess, row, col);
+            chess[row][col] = false;
         }
 
         for(int i=row+1; i<chess.length; i++){
             for(int col = 0; col<chess.length; col++){
-                if(chess[i][col] == false){
                 chess[i][col] = true;
                 queenCombination(qpsf+1, tq, chess, i, col);
                 chess[i][col] = false;
-            }
             }
         }
     }
